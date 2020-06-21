@@ -6,7 +6,4 @@ function Root() {
 }
 
 // Render the Root element into the DOM
-ReactDOM.render(
-  <Root />,
-  document.getElementById('root'),
-);
+ReactDOM.render(<Root />, document.getElementById('root'));
